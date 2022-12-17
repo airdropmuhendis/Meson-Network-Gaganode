@@ -45,5 +45,5 @@ sudo ./app service stop
 ```
 2-Daha sonra tekrar çalıştırıp kontrol et eğer düzeldiyse aynı işlemlere devam et.
 ```
-sudo ./app service stop
+sudo ./app service start
 ```
