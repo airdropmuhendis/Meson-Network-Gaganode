@@ -31,19 +31,19 @@ Kontrol : eğer status Downloaded veya Running ise devam edebilirsin. eğer To D
 ```
 ./app status
 ```
-Çalıştırma: Token adresini yaz denen kısmı gaganodeden aldığınız token adresiyle değiştirin.
+Token set Çalıştırma: Token adresini yaz denen kısmı gaganodeden aldığınız token adresiyle değiştirin.
 ```
 sudo ./apps/gaganode/gaganode config set --token= token adresini yaz
 ```
 ```
 ./app restart
 ```
-Ek 1: eğer kontrol adımında status durumu To Download olarak gözüküyor ve değişmiyorsa 
-önce servisi durdur.
+## Ek 1: eğer kontrol adımında status durumu To Download olarak gözüküyor ve değişmiyorsa 
+1-Önce servisi durdur.
 ``` 
 sudo ./app service stop
 ```
-daha sonra tekrar çalıştırıp kontrol et sonrasında aynı işlemlere devam et.
+2-Daha sonra tekrar çalıştırıp kontrol et eğer düzeldiyse aynı işlemlere devam et.
 ```
 sudo ./app service stop
 ```
