@@ -1,8 +1,8 @@
 <h1 align="center"> Meson Network Gaganode Kurulumu
 
-Meson Network, geleneksel emek tabanlı satış modellerini değiştirmek için kendi oluşturduğu  bir blockchain protokol modeli kullanarak, uzun kuyruklu kullanıcıların boşta kalan bant genişliğini düşük bir maliyetle birleştirip paraya dönüştürerek, Web3'te verimli bir bant genişliği pazarı oluşturmaya khedefliyor.
+## Meson Network, geleneksel emek tabanlı satış modellerini değiştirmek için kendi oluşturduğu  bir blockchain protokol modeli kullanarak, uzun kuyruklu kullanıcıların boşta kalan bant genişliğini düşük bir maliyetle birleştirip paraya dönüştürerek, Web3'te verimli bir bant genişliği pazarı oluşturmaya khedefliyor.
 
-GaGaNode, kullanıcıların boştaki bant genişliği kaynaklarını bağımsız olarak yönetmelerine yardımcı olmak için geliştirilmiştir. Kullanıcılar, genel ağ IP'si olmadan evde Idle Electronics aracılığıyla Web3 ağına katılabilir. GaGaNode, yeni madencilik ekipmanlarına yapılan yatırımı azaltmaya yönelik herhangi bir cihazdaki banttan yararlanarak geliştirilen bir çalışmadır.
+## GaGaNode, kullanıcıların boştaki bant genişliği kaynaklarını bağımsız olarak yönetmelerine yardımcı olmak için geliştirilmiştir. Kullanıcılar, genel ağ IP'si olmadan evde Idle Electronics aracılığıyla Web3 ağına katılabilir. GaGaNode, yeni madencilik ekipmanlarına yapılan yatırımı azaltmaya yönelik herhangi bir cihazdaki banttan yararlanarak geliştirilen bir çalışmadır.
 
  ## Video [Linki](https://youtu.be/Gh8dX0xfA0g)
 ![image](https://docs.gaganode.com/assets/gaga-system.89f4f46b.png)
@@ -27,11 +27,23 @@ curl -o app-linux-amd64.tar.gz https://assets.coreservice.io/public/package/22/a
 ```
 sudo ./app service start
 ```
-Kontrol
+Kontrol : eğer status Downloaded veya Running ise devam edebilirsin. eğer To Download ise biraz bekle bu komutu tekrar gir hala devam ediyorsa stop komutunu kullanıp tekrar start komutunu çalıştır. Ek 1 de anlattım.
 ```
 ./app status
 ```
-Çalıştırma
+Çalıştırma: Token adresini yaz denen kısmı gaganodeden aldığınız token adresiyle değiştirin.
 ```
 sudo ./apps/gaganode/gaganode config set --token= token adresini yaz
+```
+```
+./app restart
+```
+Ek 1: eğer kontrol adımında status durumu To Download olarak gözüküyor ve değişmiyorsa 
+önce servisi durdur.
+``` 
+sudo ./app service stop
+```
+daha sonra tekrar çalıştırıp kontrol et sonrasında aynı işlemlere devam et.
+```
+sudo ./app service stop
 ```
