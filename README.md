@@ -5,6 +5,7 @@ Meson Network, geleneksel emek tabanlı satış modellerini değiştirmek için 
 GaGaNode, kullanıcıların boştaki bant genişliği kaynaklarını bağımsız olarak yönetmelerine yardımcı olmak için geliştirilmiştir. Kullanıcılar, genel ağ IP'si olmadan evde Idle Electronics aracılığıyla Web3 ağına katılabilir. GaGaNode, yeni madencilik ekipmanlarına yapılan yatırımı azaltmaya yönelik herhangi bir cihazdaki banttan yararlanarak geliştirilen bir çalışmadır.
 
  ## Video [Linki](https://youtu.be/Gh8dX0xfA0g)
+![image](https://docs.gaganode.com/assets/gaga-system.89f4f46b.png)
 
 ## Kayıt [Linki](https://dashboard.gaganode.com/register?referral_code=liewshrrtr)
 
